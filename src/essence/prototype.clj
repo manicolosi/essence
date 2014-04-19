@@ -1,6 +1,6 @@
-(ns questar.engine.prototype
-  (:require [questar.util.core :refer [alter-and-assoc exception!]]
-            [questar.engine.component :as c]))
+(ns essence.prototype
+  (:require [essence.util.core :refer [alter-and-assoc exception!]]
+            [essence.component :as c]))
 
 (def ^:private prototypes {})
 

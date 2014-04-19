@@ -1,7 +1,7 @@
-(ns questar.engine.entity
-  (:require [questar.util.core :refer [field-or-self generate-id exception! dissoc-in]]
-            [questar.engine.component :as c]
-            [questar.engine.prototype :as p]))
+(ns essence.entity
+  (:require [essence.util.core :refer [field-or-self generate-id exception! dissoc-in]]
+            [essence.component :as c]
+            [essence.prototype :as p]))
 
 (defrecord Entity [id])
 

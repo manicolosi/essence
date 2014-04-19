@@ -1,9 +1,9 @@
-(ns questar.engine.entity-spec
+(ns essence.entity-spec
   (:require [speclj.core :refer :all]
-            [questar.engine.entity :refer :all]
-            [questar.engine.component :as c]
-            [questar.engine.prototype :as p]
-            [questar.engine.game :as g]))
+            [essence.entity :refer :all]
+            [essence.component :as c]
+            [essence.prototype :as p]
+            [essence.game :as g]))
 
 (p/defentity entity-test)
 

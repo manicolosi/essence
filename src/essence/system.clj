@@ -1,6 +1,6 @@
-(ns questar.engine.system
-  (:require [questar.util.core :refer [exception! alter-and-assoc]]
-            [questar.engine.entity :as e]))
+(ns essence.system
+  (:require [essence.util.core :refer [exception! alter-and-assoc]]
+            [essence.entity :as e]))
 
 (ns-unmap *ns* 'System)
 

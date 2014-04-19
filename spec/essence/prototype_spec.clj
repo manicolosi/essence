@@ -1,8 +1,8 @@
-(ns questar.engine.prototype-spec
+(ns essence.prototype-spec
   (:require [speclj.core :refer :all]
-            [questar.engine.prototype :refer :all]
-            [questar.engine.component :refer :all]
-            [questar.engine.entity :as e]))
+            [essence.prototype :refer :all]
+            [essence.component :refer :all]
+            [essence.entity :as e]))
 
 (defcomponent hitpoints
   ([cur max] [cur max])

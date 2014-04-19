@@ -1,10 +1,10 @@
-(ns questar.engine.system-spec
+(ns essence.system-spec
   (:require [speclj.core :refer :all]
-            [questar.engine.system :refer :all]
-            [questar.engine.component :as c]
-            [questar.engine.entity :as e]
-            [questar.engine.game :as g]
-            [questar.engine.prototype :as p]))
+            [essence.system :refer :all]
+            [essence.component :as c]
+            [essence.entity :as e]
+            [essence.game :as g]
+            [essence.prototype :as p]))
 
 (c/defcomponent component-a)
 (c/defcomponent component-b)
@@ -52,7 +52,7 @@
 
 (defsystem system-without-init-fn [])
 
-(describe "questar.engine.system"
+(describe "essence.system"
   (describe "process"
     (describe "with no requirements gets all entities"
       (it "in its all function"

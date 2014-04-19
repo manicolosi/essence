@@ -1,6 +1,6 @@
-(ns questar.engine.game-spec
+(ns essence.game-spec
   (:require [speclj.core :refer :all]
-            [questar.engine.game :refer :all]))
+            [essence.game :refer :all]))
 
 (describe "game"
   (it "has no entities when its created"

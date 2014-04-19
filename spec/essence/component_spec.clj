@@ -1,7 +1,7 @@
-(ns questar.engine.component-spec
+(ns essence.component-spec
   (:require [speclj.core :refer :all]
-            [questar.engine.component :refer :all]
-            [questar.engine.entity :as e]))
+            [essence.component :refer :all]
+            [essence.entity :as e]))
 
 (defcomponent sprite)
 

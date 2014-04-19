@@ -1,5 +1,5 @@
-(ns questar.engine.component
-  (:require [questar.util.core :refer [exception! alter-and-assoc]]))
+(ns essence.component
+  (:require [essence.util.core :refer [exception! alter-and-assoc]]))
 
 (defrecord Component [name data])
 

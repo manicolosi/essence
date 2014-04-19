@@ -1,4 +1,4 @@
-(ns questar.engine.game)
+(ns essence.game)
 
 (defrecord Game [entities systems])
 
