@@ -15,7 +15,7 @@ Essence is an [entity-component-system](http://en.wikipedia.org/wiki/Entity_comp
   VBOs)
 * Everything is immutable
 
-## Usage
+### Usage
 
 Essence is not yet available on Clojars. It will be available after I clean it
 up a bit and improve the documentation.
@@ -23,7 +23,7 @@ up a bit and improve the documentation.
 Remember, Essence is immutable, so all functions that "modify" a value,
 actually returns the modified value.
 
-### `essence.game`
+#### `essence.game`
 
 A game is a simple wrapper around entities and systems. I game can be created
 using the `create` function:
@@ -35,7 +35,7 @@ using the `create` function:
   ...)
 ```
 
-### `essence.entity`
+#### `essence.entity`
 
 An entity is a map of of components. Components can be added or removed.
 Entities can be created directly or from a prototype (see `essence.prototype`
@@ -128,6 +128,6 @@ examples:
 `(component sprite :bad-guy)`
 `(component position 2 3)`
 
-### `essence.prototype`
+#### `essence.prototype`
 
-### `essence.system`
+#### `essence.system`
